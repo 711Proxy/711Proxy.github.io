@@ -12,7 +12,7 @@
         <link rel="prev" href="../../">
       
       
-        <link rel="next" href="../User%26Pass%20Auth/">
+        <link rel="next" href="../UserPassAuth/">
       
       
       <link rel="icon" href="../../../assets/images/favicon.png">
@@ -42,6 +42,8 @@
         <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
       
     
+    
+      <link rel="stylesheet" href="../../../stylesheets/extra.css">
     
     <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
@@ -117,13 +119,13 @@
       <ul class="md-select__list">
         
           <li class="md-select__item">
-            <a href="../../../generate/API%20access/" hreflang="en" class="md-select__link">
+            <a href="../../../Generate/API%20access/" hreflang="en" class="md-select__link">
               English
             </a>
           </li>
         
           <li class="md-select__item">
-            <a href="../../../zh/generate/API%20access/" hreflang="zh" class="md-select__link">
+            <a href="../../../zh-Hant/Generate/API%20access/" hreflang="zh-Hant" class="md-select__link">
               简体中文
             </a>
           </li>
@@ -221,7 +223,7 @@
         <a href="./" class="md-tabs__link">
           
   
-  Generate
+  提取
 
         </a>
       </li>
@@ -236,10 +238,10 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../integration/BP%20Proxy%20integration/" class="md-tabs__link">
+        <a href="../../Integration/BP%20Proxy%20integration/" class="md-tabs__link">
           
   
-  Integration
+  集成
 
         </a>
       </li>
@@ -329,7 +331,7 @@
             
   
   <span class="md-ellipsis">
-    Generate
+    提取
   </span>
   
 
@@ -339,7 +341,7 @@
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
-            Generate
+            提取
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -381,7 +383,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../User%26Pass%20Auth/" class="md-nav__link">
+      <a href="../UserPassAuth/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -426,7 +428,7 @@
             
   
   <span class="md-ellipsis">
-    Integration
+    集成
   </span>
   
 
@@ -436,7 +438,7 @@
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
-            Integration
+            集成
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -447,7 +449,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../integration/BP%20Proxy%20integration/" class="md-nav__link">
+      <a href="../../Integration/BP%20Proxy%20integration/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -468,11 +470,32 @@
   
   
     <li class="md-nav__item">
-      <a href="../../integration/Proxy%20SwitchyOmega%20integration/" class="md-nav__link">
+      <a href="../../Integration/Proxy%20SwitchyOmega%20integration/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    Proxy SwitchyOmega 集成
+    SwitchyOmega 集成
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Integration/bit%20browser/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    比特浏览器集成
   </span>
   
 
@@ -523,7 +546,7 @@
 
 
 <h1 id="api">API 獲取<a class="headerlink" href="#api" title="Permanent link">&para;</a></h1>
-<p>可以通過以下兩個地址生成API鏈接</p>
+<p>可以通過以下兩個地址生成 API 鏈接</p>
 <p><a href="https://www.711proxy.com/fetch/api-extract">官網-代理設置-API</a></p>
 <p><a href="https://www.711proxy.com/profile/api-fetch">儀錶板-代理設置-API</a></p>
 <p>第一步:</p>
@@ -547,13 +570,13 @@
 <tr>
 <td>2</td>
 <td>動態住宅</td>
-<td>按GB付費</td>
+<td>按 GB 付費</td>
 <td>10000</td>
 </tr>
 <tr>
 <td>3</td>
 <td>動態住宅</td>
-<td>按IP付費</td>
+<td>按 IP 付費</td>
 <td>20000</td>
 </tr>
 <tr>
@@ -579,11 +602,11 @@
 <p>第二步:</p>
 <p>選擇代理位置(如果不選，則默認爲全局隨機)</p>
 <p>第三步:</p>
-<p>選擇協議：http或socks5 (web頁面建議使用http；其他場景推薦使用Socks5)</p>
+<p>選擇協議：http 或 socks5 (web 頁面建議使用 http；其他場景推薦使用 Socks5)</p>
 <p>第四步:</p>
-<p>根據需要選擇API數據格式（如無特殊要求，選擇默認格式即可）</p>
+<p>根據需要選擇 API 數據格式（如無特殊要求，選擇默認格式即可）</p>
 <p>第五步:</p>
-<p>點擊生成API鏈接，此時可能會彈出窗口，詢問是否添加白名單（如果自己使用，需要將自己的IP添加到白名單中才能使用;如果不是自己使用，則需要將使用人的IP添加到白名單中）</p>
+<p>點擊生成 API 鏈接，此時可能會彈出窗口，詢問是否添加白名單（如果自己使用，需要將自己的 IP 添加到白名單中才能使用;如果不是自己使用，則需要將使用人的 IP 添加到白名單中）</p>
 <p>第六步:</p>
 <p>生成鏈接後，您可以選擇“複製鏈接”或“打開鏈接”，打開鏈接即可查看生成的代理列表，然後應用到反檢測瀏覽器或其他指定位置。</p>
 
